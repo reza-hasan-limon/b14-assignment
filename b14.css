@@ -1,52 +1,116 @@
-
-.nav {
-    list-style: none;
-    justify-content: right;
+.header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 10px 0;
-    margin: 0;
-}
-
-.nav a {
-    text-decoration: none;
-    color:grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.hire-btn {
-    background: #ff6a00;
-    color: white !important;
-    padding: 15px 28px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+    padding: 20px 8%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid var(--border-light);
 }
 .logo {
-    font-size: 32px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
 }
-.logo-o {
-    font-size: 32px;
-    font-weight: bold;
-    color: #ff6a00;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
+.nav{
+    display: flex;
+     gap: 32px;
 }
-.common-btn {
-    background: #ff6a00;
-    color: white !important;
-    padding: 15px 28px;
-    border-radius: 5px;
-    font-weight: bold;
+.hero-section {
+    background-image: url(./assets/banner.jpg);
+    color:#f7f1f1;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 300px;
+}
+.speakers-section {
+    padding: 80px 8%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.speaker-card {
+    background: #f7f1f1;
+    border-radius: 10px;
+    overflow: auto;
+    border: 2px solid var(--border-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-image img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-info {
+    padding: 24px;
+}
+
+.speaker-tag {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.tickets-section{
+  text-align: center;
+}
+.pricing-section {
+    padding: 80px 8%;
+    max-width: 1200px;
+    margin: 10 auto;
+    display:flex;
+    justify-content: center;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.pricing-card {
+    background: white;
+    border-radius: 10px;
+    overflow: auto;
+    border: 2px solid var(--border-light);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.pricing-card-featured {
+  padding: 80px 8%;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+   background-color: #19192f;
+   color:#FFFFFF;
+   
+}
+  
+
+.pricing-card{
+padding: 80px 8%;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+   background-color: #d2d2f1c7;
 }

@@ -3,127 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DevConf 2026 Landing Page</title>
     <link rel="stylesheet" href="./b14.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+
 </head>
 <body>
-    <header>
-         <nav>
-            <h2 class="logo">Lim<span class="logo-o">o</span>n</h2>
-    <ul class="nav">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#" class="hire-btn">Hire Me</a></li>
-    </ul>
-</nav>
+
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="DevConf Logo" >
+            
+        </div>
+        <nav class="nav">
+            <a href="#">Speakers</a>
+            <a href="#">Schedule</a>
+            <a href="#">Tickets</a>
+            <a href="#">Venue</a>
+            <a href="#">Blog</a>
+        </nav>
+        <button class="btn b">Register Now</button>
     </header>
 
     <section class="hero-section">
-        div class="vertical-text">developer</div>
         <div class="hero-content">
-            <h3>Hi, I am</h3>
-            <h1>Reza Hasan Limon</h1>
-            <div class="hero-buttons"> 
-                <button class="btn btn-orange"> Download CV </button>
-                <button class="btn btn-outline"> Contact </button>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="bg-circles"></div>
-            <img src="./Limon.png" alt="Reza Hasan Limon">
-        </div>
-    </section>
-    <section class="about-section">
-        <h2 class="section title">About Me</h2>
-        <p class="section-desc">I am a designer & developer with a passion for creating beautiful, functional user interfaces. I balance clean aesthetics with technical efficiency to deliver memorable web experiences.</p>
-        <div class=" about-info-grid">
-            <div class="info-item"><h5>Name:</h5><p>Reza Hasan Limon</p></div>
-            <div class="info-item"><h5>Email:</h5><p>rezahasanlimon08665@gmaail.com</p></div>
-            <div class="info item"><h5>Date of birth:</h5><p>28 August 2004</p></div>
-            <div class="info-item"><h5>From:</h5><p>Dhaka, Bangladesh</p></div>
+          
+            <h1>Code. <span>Connect.</span> Create</h1>
+            <p>Join 4000+ engineers, founder, and builders at the premier developer conference of 2026. Three days of cutting edges tlkes, hands-on workshops, and meaningful connections.</p>
+            <button class="btn hero-btn" >Register Now</button>
         </div>
     </section>
 
-    <!-- What I Do Section -->
-     <section class="service-section">
-        <h2 class="section-title">What I Do</h2>
-        <p class="section-desc">I offer comprehensive front-end engineering services tailored to bring complex web applications and modern layouts to life.</p>
-        <div class="service-grid">
-            <div class="service-card">
-                <div class="card-icon">
-                    <img src="/icons/javascript.png" alt="javascript">
-                    <h4>Vanilla JavaScript</h4>
-                    <p>List Skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="service-card">
-                    <img src="./icons/angular.png" alt="Angular">
-                    <img src="./icons/react.png" alt="React">
-                    <img src="./icons/vue.png" alt="vue">
-                    <h4>Angular, React, Vue</h4>
-                    <p>List Skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
+    <section class="speakers-section">
+        <h2 class="section-title">Meet the Speakers</h2>
+        <div class="speakers-grid">
             
+            
+           
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <div class="image-wrapper">
+                    <img src="./assets/andrej.png" alt="Andrej Karpathy">
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="/icons/nodejs.png" alt="nodejs">
-                    <h4>Node.js</h4>
-                    <p>List Skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
+                <div class="speaker-info">
+                    <span class="speaker-tag text-purple">AI / ML</span>
+                    <h3>Andrej Karpathy</h3>
+                    <p>Pretraining team, Anthropic</p>
+                </div>
+            </div>
 
+            
+            <div class="speaker-card">
+                <div class="speaker-image">
+                     <div class="image-wrapper">
+                    <img src="./assets/demis.png" alt="Demis Hassabis">
+                    </div>
+                    
                 </div>
-                <div class="service-card">
-                    <img src="./icons/python.png" alt="python">
-                    <h4>Python & Django</h4>
-                    <p>List Skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
-            </div>
-        </div>
-     </section>
-     <section class="resume-section">
-        <h2 class="section-title">A summary of my resume</h2>
-        <div class="resume-grid">
-            <div class="resume-column">
-                <h3>My Education</h3>
-                <div class="resume-item">
-                    <h4>BSc in Software Engineering</h4>
-                    <h5>Daffodil International University / 2024 - 2028</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="resume-item">
-                    <h4>BSc in Software Engineering</h4>
-                    <h5>Daffodil International University / 2024 - 2028</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
-                </div>
-                <div class="resume-item">
-                    <h4>BSc in Software Engineering</h4>
-                    <h5>Daffodil International University / 2024 - 2028</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p>
+                <div class="speaker-info">
+                    <span class="speaker-tag text-blue">CLOUD & DEVOPS</span>
+                    <h3>Demis Hassabis</h3>
+                    <p>Co-founder & CEO of Google DeepMind</p>
                 </div>
             </div>
-            <div class="resume-column">
-                <h3> MY Experience</h3>
-                <div class="resume-item">
-                    <h4>Sr. Font End Developer</h4>
-                    <h5>Apple Inc / 2020 - Current</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p> 
+
+           
+            <div class="speaker-card">
+                <div class="speaker-image">
+                    <div class="image-wrapper">
+                        <img src="./assets/gary.png" alt="Gary Marcus">
+                    </div>
+                    
                 </div>
-                 <div class="resume-item">
-                    <h4>Jr. Font End Developer</h4>
-                    <h5>Dribble Inc / 2018 - 2020</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p> 
+                <div class="speaker-info">
+                    <span class="speaker-tag text-yellow">FRONTEND</span>
+                    <h3>Gary Marcus</h3>
+                    <p>Staff Engineer, Vercel</p>
                 </div>
-                 <div class="resume-item">
-                    <h4>HTML Developer</h4>
-                    <h5>Adobe / 2017 - 2018</h5>
-                    <p>List skills/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available.Aenean commodo ligula eget dolor.</p> 
+            </div>
+
+         
+            <div class="speaker-card">
+                <div class="speaker-image">
+                     <div class="image-wrapper">
+                         <img src="./assets/mustafa.png" alt="Mustafa Suleyman">
+                    </div>
+                   
                 </div>
+                <div class="speaker-info">
+                    <span class="speaker-tag text-green">Security</span>
+                    <h3>Mustafa Suleyman</h3>
+                    <p>CEO of Microsoft AI</p>
+                </div>
+            </div>
+
         </div>
-        <div class="center-btn">
-            <button class="btn btn-orange">Download CV</button>
+    </section>
+
+  
+    <section class="tickets-section">
+        <h1 class="section-title">Secure Your Spot</h1>
+        <p class="section-desc">Early bird pricing ends August 15, 2026</p>
+        
+        <div class="pricing-grid">
+            
+         
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <span class="pass-type">STANDARD</span>
+                    <div class="price">$399</div>
+                    <span class="price-sub">per person</span>
+                </div>
+                <ul class="features-list">
+                    <li>Access to all 3 conference days</li>
+                    <li>48 curated technical talks</li>
+                    <li>2 workshops sessions</li>
+                    <li>Networking lunch & coffee breaks</li>
+                    <li>Conference swag bag</li>
+                    <li>Digital recordings (30 days)</li>
+                </ul>
+                <button class="btn btn-outline">Get Standard</button>
+            </div>
+
+            <div class="pricing-card-featured">
+                <div class="pricing-header">
+                    <span class="pass-type">Pro</span>
+                    <div class="price">$749</div>
+                    <span class="price-sub">per person</span>
+                </div>
+                <ul class="features-list">
+                    <li>Everything in Standard</li>
+                    <li>Unlimited workshop Access</li>
+                    <li>Speaker meet & greet</li>
+                    <li>VIP networking dinner</li>
+                    <li>Lifetime recording access</li>
+                    <li>1-on-1 mentorship (30 min)</li>
+                </ul>
+                <button class="btn">Get Pro</button>
+            </div>
+
+
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <span class="pass-type">Team</span>
+                    <div class="price">$5,999</div>
+                    <span class="price-sub">up to 10 people</span>
+                </div>
+                <ul class="features-list">
+                    <li>Everything in pro (10 seats)</li>
+                    <li>Dedicated team lounge access</li>
+                    <li>Private workshop booking</li>
+                    <li>Company logo on event page</li>
+                    <li>Recruitment booth (1 day)</li>
+                    <li>Priority customer support</li>
+                </ul>
+                <button class="btn">Contact Us</button>
+            </div>
+
         </div>
-     </section>
-     <!--works Section-->
+    </section>
 
 </body>
 </html>
